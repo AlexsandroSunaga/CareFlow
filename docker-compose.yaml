@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: careflow
+      POSTGRES_PASSWORD: careflow
+      POSTGRES_DB: careflow
+    ports:
+      - "5433:5432"
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://careflow:careflow@db:5432/careflow
+    ports:
+      - "8011:8000"
+    depends_on:
+      - db
