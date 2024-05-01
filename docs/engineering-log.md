@@ -75,3 +75,4 @@ One line per active dev day.
 - 2024-04-25: iteration 72 - QA and integration
 - 2024-04-26: iteration 73 - QA and integration
 - 2024-04-30: iteration 74 - QA and integration
+- 2024-05-01: iteration 75 - QA and integration
