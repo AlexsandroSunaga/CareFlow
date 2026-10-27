@@ -9,8 +9,8 @@ export default function AboutPage() {
         <section>
           <h1 className="text-3xl font-semibold text-slate-900">About CareFlow Hospital</h1>
           <p className="mt-4 max-w-2xl text-slate-600">
-            CareFlow is a portfolio-grade acute care platform: patient portal, HIM-safe document intake, and a
-            multi-department staff console used by scheduling, clinical ops, revenue cycle, and compliance teams.
+            CareFlow is a sample acute care platform: a patient portal, document intake that redacts personal
+            identifiers, and a staff console with scheduling, clinical operations, revenue cycle and compliance screens.
           </p>
         </section>
         <StatsRow
